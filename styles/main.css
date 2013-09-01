@@ -1,0 +1,47 @@
+/*
+*
+* some additional classes to assist with bootstrap w/ jquery validation plugin
+* 
+*/
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: url(images/valid.png) center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+
+div.dataTables_length label {
+    width: 460px;
+    float: left;
+    text-align: left;
+}
+ 
+div.dataTables_length select {
+    width: 75px;
+}
+ 
+div.dataTables_filter label {
+    float: right;
+    width: 460px;
+}
+ 
+div.dataTables_info {
+    padding-top: 8px;
+}
+ 
+div.dataTables_paginate {
+    float: right;
+    margin: 0;
+}
+ 
+table {
+    margin: 1em 0;
+    clear: both;
+}
